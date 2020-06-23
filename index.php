@@ -27,8 +27,10 @@ $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb','postgres','123456')
 }else{
 $db = parse_url(getenv("DATABASE_URL"));
 $pdo = new PDO("pgsql:" . sprintf(
-"host=ec2-54-225-72-238.compute-1.amazonaws.com;port=5432;user=zyspzjwbrlxfnk;
-password=95402f2fcd09500f7ad877a328cb24cb0ac00800666b;dbname=d7f8iof0djq8lo",
+"host=ec2-34-197-188-147.compute-1.amazonaws.com
+;port=5432;user=bvztajjyxcwfgb;
+password=95afa25f8872b3a2bf6cd1f19c1e74a4148450363e9bcecdc61a254a208ed85e;dbname=
+d4s6q2430j68ed",
  $db["host"],
  $db["port"],
  $db["user"],
