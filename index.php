@@ -40,7 +40,7 @@ d4s6q2430j68ed",
 if($pdo ===false){
 echo "ERROR:Could not connect Database";
 }
-$sql="INSERT INTO toy(toyid, toyname)"
+$sql="INSERT INTO thienthu(toyid, toyname)"
  . " VALUES('$_POST[toyid]','$_POST[toyname]')";
 $stmt = $pdo-> prepare($sql);
 if (is_null($_POST[toyid])){
