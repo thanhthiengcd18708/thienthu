@@ -16,7 +16,7 @@ and open the template in the editor.
 <form name="InsertData" action="InsertData.php" method="POST">
 <li> toyID:</li><li><input type="text" name="toyid"/></li>
 <li>Toy Name:</li><input type="text" name="toyname"/></li>
-<li><input type="submit"/></li>
+<li><input type="SUBMIT"/></li>
 </form>
 </ul>
 <?php
